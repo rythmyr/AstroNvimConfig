@@ -9,4 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "windwp/nvim-autopairs",
+    enabled = false,
+  },
+  {
+    "mfussenegger/nvim-dap",
+    enabled = true,
+  },
+  -- {
+  --   "tpope/vim-surround",
+  --   event = "VeryLazy",
+  -- },
 }
